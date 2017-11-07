@@ -1,26 +1,261 @@
 body {
-  font-family: 'Karla', sans-serif;
+	font-family: 'Karla', sans-serif;
 }
 
+ 
 /* ----------------------------------------------------------------------------------- */
 /* PAGE NAVIGATION */
 /* ----------------------------------------------------------------------------------- */
-.page-nagivation {
+.page-navigation {  
+	height: 200px;
+}
 
+.page-navigation-logo    {  
+	width: 135px;
+    height: 90px;
+    margin-top: 30px;
+    padding-left: 40px;
+    position: absolute;
+	z-index:9999; 
+}
+
+.page-navigation-toggle  {
+	position: absolute;
+    right: 0;
+    width: 42px;
+    height: 40px;
+    margin-top: 46px;
+    margin-right: 50px;
+    padding: 40px;
+	z-index:9999; 
+}
+.page-navigation-toggle.active  {
+ 
+    background-color:     hsla(0, 0%, 100%, .3);
+	z-index:9999; 
 }
 
 .page-navigation-menu {
-  display: none;
+	display: none; 
+	z-index:9999; 
 }
 
 .page-navigation-menu.active {
-  display: block;
+	display: block;
+	position: absolute;
+	display: block; 
+	background-color: white; 
+	width: 89%;
+	margin-top: 180px;
+    margin-left: 60px;
+	padding: 60px 0 55px 0;
+	z-index:9999; 
+}
+
+.page-navigation-menu.active a{
+	text-transform: uppercase;
+	padding: 0 50px;
+	font-size: 33px;
+	text-decoration: none;
+	color: rgba(17, 17, 17, 0.85);
+	font-weight: 700;
+	line-height: 55px;
+	z-index:9999; 
+}
+/* ----------------------------------------------------------------------------------- */
+/* PAGE HERO */
+/* -----------------------------------------------------------------------------------*/
+.page-hero {
+	position: relative;  
+	display: block; 
+	overflow: hidden; 
+	left: 0; 
+	right: 0; 
+	height: 100%; 
+	white-space: nowrap; 
+	background-image: url("images/hero-1.jpg");
+	height: 100vh;
+	margin-top: -200px;
+} 
+
+.page-hero-title{
+    color: #fff;
+    margin: auto;
+    width: 50%;
+    margin-top: 360px; 
+    padding: 10px;
+    font-size: 68px;
+    line-height: 93px;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    text-align: center;
+    font-weight: 300;  
+}
+.horizontal-line{
+	background-color: #fff;
+     display: block;
+    width: 115px;
+    height: 4px;
+    margin: 50px auto 65px auto;
+}
+.page-hero-subtitle{
+    color: #fff; 
+	text-transform: uppercase;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.page-hero-arrow-down{
+	position: absolute;
+    left: 45%;
+    bottom: 50px;     
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 30px;
+    border: 4px solid white;
+}
+.page-hero-arrow-down img{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 30px;: 9px;
+}
+
+.page-content{ 
+    padding-bottom: 1px;
+    background-color: #f4fbf5; 
 }
 
 
 /* ----------------------------------------------------------------------------------- */
-/* PAGE HERO */
+/* landing-intro */
 /* ----------------------------------------------------------------------------------- */
-.page-hero {
 
+.landing-intro{
+ 
+}
+
+.landing-thumbnail{
+    
+    background-color: #fff;
+    margin: 114px 27px;
+
+    padding-left: 55px;
+}
+
+.landing-thumbnail-title{    
+	text-transform: uppercase;
+    font-size: 21px;
+    font-family: Karla, sans-serif;
+    color: #111;
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-top: 60px;
+    padding-bottom: 59px;
+}
+
+.landing-thumbnail-text{   
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: #111;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    padding-bottom: 60px; 
+    line-height: 60px;
+
+}
+
+.landing-thumbnail-link{ 
+    font-size: 34px;
+    padding-top: 21px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+    border-bottom: 2px solid #111;
+}   
+
+
+/* ----------------------------------------------------------------------------------- */
+/* Footer */
+/* ----------------------------------------------------------------------------------- */
+.page-footer{
+	background-color: #24252c;
+	color: #fff;
+	line-height: 55px; 
+    padding-bottom: 110px;
+    position: relative;
+}
+.page-footer-logo-img{
+    height: 92px;
+    padding-left: 54px;
+    padding-top: 217px;
+    padding-bottom: 202px;
+
+}
+
+.page-footer-list{    
+	padding-left: 55px;
+    padding-bottom: 60px;
+}
+
+.page-footer-title{
+	text-transform: uppercase; 
+    margin-bottom: 40px;  
+    line-height: 27px; 
+    letter-spacing: 0.5px;
+}
+
+.page-footer-social-img{
+    height: 47px;
+    width: 47px;
+    margin-right: 15px;
+}
+
+.page-footer-copyright{
+	margin-top: 130px;
+    padding-left: 55px;
+    padding-bottom: 55px;
+    color: #b5b5b8;
+}
+
+.page-footer-copyright-text{ 
+    font-size: 14px;
+}
+
+.page-footer-copyright-license{
+    text-decoration: none; 
+    font-size: 28px; 
+    border-bottom: 1px solid #111;
+    color: #b5b5b8;
+    padding-top: 116px;
+    display: inline-block;
+}
+
+.page-footer-arrow-down{ 
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 54px;
+    height: 54px; 
+    border-radius: 50%;
+    background-color: #31323a; 
+    padding: 30px; 
+}
+
+.page-footer-arrow-down-img{    
+	right: -15px;
+    top: 15px;
+    display: block;  
+    transform: rotate(180deg);
+    position: relative;
+    height: 20px;
+    width: 30px;
 }

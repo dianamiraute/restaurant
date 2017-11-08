@@ -2,7 +2,7 @@ body {
 	font-family: 'Karla', sans-serif;
 }
 
- 
+
 /* ----------------------------------------------------------------------------------- */
 /* PAGE NAVIGATION */
 /* ----------------------------------------------------------------------------------- */
@@ -12,26 +12,26 @@ body {
 
 .page-navigation-logo    {  
 	width: 135px;
-    height: 90px;
-    margin-top: 30px;
-    padding-left: 40px;
-    position: absolute;
+	height: 90px;
+	margin-top: 30px;
+	padding-left: 40px;
+	position: absolute;
 	z-index:9999; 
 }
 
 .page-navigation-toggle  {
 	position: absolute;
-    right: 0;
-    width: 42px;
-    height: 40px;
-    margin-top: 46px;
-    margin-right: 50px;
-    padding: 40px;
+	right: 0;
+	width: 42px;
+	height: 40px;
+	margin-top: 46px;
+	margin-right: 50px;
+	padding: 40px;
 	z-index:9999; 
 }
 .page-navigation-toggle.active  {
- 
-    background-color:     hsla(0, 0%, 100%, .3);
+
+	background-color:     hsla(0, 0%, 100%, .3);
 	z-index:9999; 
 }
 
@@ -47,7 +47,7 @@ body {
 	background-color: white; 
 	width: 89%;
 	margin-top: 180px;
-    margin-left: 60px;
+	margin-left: 60px;
 	padding: 60px 0 55px 0;
 	z-index:9999; 
 }
@@ -79,54 +79,54 @@ body {
 } 
 
 .page-hero-title{
-    color: #fff;
-    margin: auto;
-    width: 50%;
-    margin-top: 360px; 
-    padding: 10px;
-    font-size: 68px;
-    line-height: 93px;
-    font-family: 'Frank Ruhl Libre', sans-serif;
-    text-align: center;
-    font-weight: 300;  
+	color: #fff;
+	margin: auto;
+	width: 50%;
+	margin-top: 360px; 
+	padding: 10px;
+	font-size: 68px;
+	line-height: 93px;
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	text-align: center;
+	font-weight: 300;  
 }
 .horizontal-line{
 	background-color: #fff;
-     display: block;
-    width: 115px;
-    height: 4px;
-    margin: 50px auto 65px auto;
+	display: block;
+	width: 115px;
+	height: 4px;
+	margin: 50px auto 65px auto;
 }
 .page-hero-subtitle{
-    color: #fff; 
+	color: #fff; 
 	text-transform: uppercase;
-    margin: auto;
-    width: 80%;
-    padding: 10px;
-    font-size: 48px;
-    text-align: center;
-    font-weight: 300;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	font-size: 48px;
+	text-align: center;
+	font-weight: 300;
 }
 
 .page-hero-arrow-down{
 	position: absolute;
-    left: 45%;
-    bottom: 50px;     
-    background-color: transparent;
-    border-radius: 50%;
-    padding: 30px;
-    border: 4px solid white;
+	left: 45%;
+	bottom: 50px;     
+	background-color: transparent;
+	border-radius: 50%;
+	padding: 30px;
+	border: 4px solid white;
 }
 .page-hero-arrow-down img{
-    position: relative;
-    top: 5px;
-    height: 20px;
-    width: 30px;: 9px;
+	position: relative;
+	top: 5px;
+	height: 20px;
+	width: 30px;: 9px;
 }
 
 .page-content{ 
-    padding-bottom: 1px;
-    background-color: #f4fbf5; 
+	padding-bottom: 1px;
+	background-color: #f4fbf5; 
 }
 
 
@@ -135,51 +135,48 @@ body {
 /* ----------------------------------------------------------------------------------- */
 
 .landing-intro{
- 
+
 }
 
 .landing-thumbnail{
-    
-    background-color: #fff;
-    margin: 114px 27px;
-
-    padding-left: 55px;
+	background-color: #fff;
+	margin: 114px 27px;
+	padding-left: 55px;
 }
 
 .landing-thumbnail-title{    
 	text-transform: uppercase;
-    font-size: 21px;
-    font-family: Karla, sans-serif;
-    color: #111;
-    font-size: 38px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    padding-top: 60px;
-    padding-bottom: 59px;
+	font-size: 21px;
+	font-family: Karla, sans-serif;
+	color: #111;
+	font-size: 38px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	padding-top: 60px;
+	padding-bottom: 59px;
 }
 
 .landing-thumbnail-text{   
-    font-family: 'Frank Ruhl Libre', sans-serif;
-    color: #111;
-    font-size: 50px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    padding-top: 4px;
-    padding-bottom: 60px; 
-    line-height: 60px;
-
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	color: #111;
+	font-size: 50px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	padding-bottom: 60px; 
+	line-height: 60px;
 }
 
 .landing-thumbnail-link{ 
-    font-size: 34px;
-    padding-top: 21px;
-    padding-bottom: 10px;
-    margin-bottom: 60px;
-    text-transform: uppercase;
-    display: inline-block;
-    color: #111;
-    text-decoration: none;
-    border-bottom: 2px solid #111;
+	font-size: 34px;
+	padding-top: 21px;
+	padding-bottom: 10px;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #111;
+	text-decoration: none;
+	border-bottom: 2px solid #111;
 }   
 
 
@@ -190,72 +187,451 @@ body {
 	background-color: #24252c;
 	color: #fff;
 	line-height: 55px; 
-    padding-bottom: 110px;
-    position: relative;
+	padding-bottom: 110px;
+	position: relative;
+}
+.page-footer-link{ 
+	color: #fff;  
 }
 .page-footer-logo-img{
-    height: 92px;
-    padding-left: 54px;
-    padding-top: 217px;
-    padding-bottom: 202px;
-
+	height: 92px;
+	padding-left: 54px;
+	padding-top: 217px;
+	padding-bottom: 202px;
 }
 
 .page-footer-list{    
 	padding-left: 55px;
-    padding-bottom: 60px;
+	padding-bottom: 60px;
 }
 
 .page-footer-title{
 	text-transform: uppercase; 
-    margin-bottom: 40px;  
-    line-height: 27px; 
-    letter-spacing: 0.5px;
+	margin-bottom: 40px;  
+	line-height: 27px; 
+	letter-spacing: 0.5px;
 }
 
 .page-footer-social-img{
-    height: 47px;
-    width: 47px;
-    margin-right: 15px;
+	height: 47px;
+	width: 47px;
+	margin-right: 15px;
 }
 
 .page-footer-copyright{
 	margin-top: 130px;
-    padding-left: 55px;
-    padding-bottom: 55px;
-    color: #b5b5b8;
+	padding-left: 55px;
+	padding-bottom: 55px;
+	color: #b5b5b8;
 }
 
 .page-footer-copyright-text{ 
-    font-size: 14px;
+	font-size: 14px;
 }
 
 .page-footer-copyright-license{
-    text-decoration: none; 
-    font-size: 28px; 
-    border-bottom: 1px solid #111;
-    color: #b5b5b8;
-    padding-top: 116px;
-    display: inline-block;
+	text-decoration: none; 
+	font-size: 28px; 
+	border-bottom: 1px solid #111;
+	color: #b5b5b8;
+	padding-top: 116px;
+	display: inline-block;
 }
 
 .page-footer-arrow-down{ 
-    position: absolute;
-    right: 50px;
-    bottom: 50px;
-    width: 54px;
-    height: 54px; 
-    border-radius: 50%;
-    background-color: #31323a; 
-    padding: 30px; 
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	width: 54px;
+	height: 54px; 
+	border-radius: 50%;
+	background-color: #31323a; 
+	padding: 30px; 
 }
 
 .page-footer-arrow-down-img{    
 	right: -15px;
-    top: 15px;
-    display: block;  
-    transform: rotate(180deg);
-    position: relative;
-    height: 20px;
-    width: 30px;
+	top: 15px;
+	display: block;  
+	transform: rotate(180deg);
+	position: relative;
+	height: 20px;
+	width: 30px;
 }
+
+
+
+/* ----------------------------------------------------------------------------------- */
+/* MENU PAGES  */
+/* -----------------------------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------------------------- */
+/*  PAGE HERO */
+/* -----------------------------------------------------------------------------------*/
+
+
+.page-title{
+	margin-top: 62px;
+	font-size: 38px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #111;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.page-intro{ 
+	background-color: white; 
+	padding: 54px 27px 68px;
+	position: relative;
+}
+
+.page-title-horizontal-line{
+	background-color: #111;
+	display: block; 
+	width: 115px;
+	height: 4px;
+	margin: 95px auto 80px auto;
+}
+
+.page-title-desc{
+	font-size: 45px;  
+	margin-bottom: 90px;
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	font-weight: 100;
+	padding: 0 50px;
+	line-height: 65px; 
+	text-align: center;
+}
+
+.page-title-badge{
+	bottom: -90px;
+	height: 230px;
+	position: absolute;
+	right: 50px; 
+	z-index: 999;
+}
+
+.page-content{
+	padding: 120px 60px; 
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* MENU PAGE - CONTENT */
+/* -----------------------------------------------------------------------------------*/
+.menu-page-hero { 
+	background-image: url("images/hero-4.jpg");
+	background-size: cover;
+	height: 500px;
+	margin-top: -200px;
+} 
+.menu-title{
+	text-transform: uppercase;
+	font-size: 60px;
+	display: inline-block;
+	padding-right: 50px; 
+	padding-bottom: 50px;
+}
+
+.menu-subtitle{
+	text-transform: uppercase;
+	font-size: 33px;
+	display: inline-block;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+
+.menu-list{
+	font-size: 34px;
+
+	padding-bottom: 50px;
+}
+
+.menu-item{
+	line-height: 60px;
+}
+
+.menu-meal{
+	width: 90%; 
+	display: inline-block;
+}
+
+.menu-price{
+	float: right;
+}
+
+.menu-page-bottom{
+
+}
+.menu-page-bottom-img{
+	height: 580px; 
+	padding: 55px;  
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+/* ABOUT PAGE - CONTENT */
+/* -----------------------------------------------------------------------------------*/
+.about-page-hero{ 
+	background-image: url("images/hero-6.jpg");
+	background-size: cover;
+	height: 780px;
+	margin-top: -200px;
+}
+.about-title{
+	text-transform: uppercase;
+	font-size: 46px;
+	display: inline-block;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+.about-text{ 
+	font-size: 16px; 
+	padding-bottom: 50px;
+	line-height: 55px;
+}
+.about-page-bottom-img{
+	width: 100%;
+} 
+.about-page-bottom {
+	margin-bottom: 270px;
+}
+
+.about-page-bottom-container{
+	background-color: #fff;
+	margin: 0px -35px; 
+	margin-top: 120px;
+}
+.about-page-bottom-container-text{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+	padding: 130px 25px;
+	padding-bottom: 25px;
+	line-height: 90px;
+	font-family: 'Frank Ruhl Libre', sans-serif
+}
+.about-page-bottom-container-link{
+	display: inline-block;
+	border-bottom: 1px solid #111;
+	color: #111;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-right: 45px;
+	margin-left: 130px;
+	margin-bottom: 130px;
+	line-height: 70px;
+	font-family: Karla, sans-serif;
+	font-size: 33px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------- */
+/* FUNCTIONS PAGE - CONTENT */
+/* -----------------------------------------------------------------------------------*/
+.functions-page-hero{ 
+	background-image: url("images/hero-2.jpg");
+	background-size: cover;
+	height: 340px;
+	margin-top: -200px;
+	background-position-y: 30%;
+}
+.functions-page-content{
+	display: flex;    
+	align-items: center;
+}
+.functions-container-left{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.functions-container-right{
+	width: 50%;
+	display: inline-block;
+}
+
+.functions-img{
+	height: 280px;
+}
+
+.functions-title{ 
+	font-size: 62px;
+	text-transform: uppercase;
+	line-height: 70px;
+}
+
+.functions-subtitle{
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 10px;
+	line-height: 50px;
+}
+
+.functions-text{
+	font-size: 34px;
+	padding: 30px 5px;
+	line-height: 50px;;
+}
+.functions-link{
+	text-decoration:none;
+	font-size: 34px; 
+	border-bottom: 1px solid #111;
+	color: #111; 
+}
+
+.functions-page-bottom-img{
+	margin: 60px;
+	width: 88%;
+}
+
+.functions-page-bottom-text{
+	font-size: 50px;
+	line-height: 70px;
+	text-align: center;
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	font-weight: 100;
+}
+
+  
+.reservation-form{
+	margin-top: 54px;  
+}
+
+.functions-form{
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-bottom: 140px;
+	display: block;
+}
+ 
+.form-label{
+	font-size: 28px;
+	font-family: Karla, sans-serif;
+	line-height: 60px;
+
+}
+
+.form-input{
+	font-family: Karla, sans-serif;
+	height: 110px;
+	margin-bottom: 0px;
+	padding: 0px 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(0, 0, 0, .1);
+	display: block;
+	width: 88%;
+	font-size: 28px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.form-textarea{ 
+	padding-bottom: 270px;
+}
+
+.form-button{
+	height: 104px;
+	width: 320px;
+	border: 2px solid #24252c;
+	background-color: #24252c;
+	font-size: 35px;
+	color: white;
+	margin-left: 280px;
+	margin-bottom: 30px;
+	font-family: Karla, sans-serif;
+}
+ 
+
+
+/* ----------------------------------------------------------------------------------- */
+/* NEWS PAGE - CONTENT */
+/* -----------------------------------------------------------------------------------*/
+.news-page-hero{ 
+	background-image: url("images/hero-1.jpg");
+	background-size: cover;
+	height: 340px;
+	margin-top: -200px;
+	background-position-y: 30%;
+}
+
+.news-container{
+}
+
+.news-container-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+  
+
+.news-item{ 
+	width: 100%;
+    height: 715px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.news-item-date{
+ 	text-transform: uppercase;
+    font-size: 32px;
+    padding: 60px;
+    font-family: Karla, sans-serif;
+}
+
+.news-item-title{ 
+	font-size: 71px;
+    padding-left: 65px;
+    font-weight: 100;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    line-height: 90px;
+}
+
+
+.news-item1{ 
+    background-image: url(images/news-1.jpg);
+} 
+.news-item2{
+	background-image: url(images/news-2.jpg);
+} 
+.news-item3{
+	background-image: url(images/news-3.jpg);
+} 
+.news-item4{
+	background-image: url(images/news-4.jpg);
+} 
+.news-item5{
+	background-image: url(images/news-5.jpg);
+} 
+.news-item6{
+	background-image: url(images/news-6.jpg);
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------- */
+/* NEWS PAGE - RESERVATIONS */
+/* -----------------------------------------------------------------------------------*/
+.reservations-page-hero{ 
+	background-image: url("images/hero-9.jpg");
+	background-size: cover;
+	height: 340px;
+	margin-top: -200px; 
+}
+
+.reservation-form-container{
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-bottom: 140px;
+	display: block;
+	background-color: #f4fbf5;
+}
+  

@@ -1,0 +1,27 @@
+.c-page-navigation {
+  width: 100%;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #DDD;
+}
+
+.c-page-navigation__logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.c-page-navigation__menu {
+  text-align: center;
+  display: inline-block;
+  margin-left: 50px;
+  padding: 0;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.c-page-navigation__menu-item {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}

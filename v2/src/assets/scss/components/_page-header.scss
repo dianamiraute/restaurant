@@ -1,0 +1,13 @@
+.c-page-header {
+  background-image: url("../img/hero-1.jpg");
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-page-header--full {
+  height: 100vh;
+}

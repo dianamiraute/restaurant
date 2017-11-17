@@ -3,14 +3,15 @@
 // TOLLS
 
 // GENERIC
-@import 'generic/normalize.scss';
+@import 'generic/normalize';
 
 // ELEMENTS
+@import 'elements/elements';
 
 // COMPONENTS
-@import 'components/page-navigation/page-navigation';
-@import 'components/page-footer/page-footer';
-@import 'components/testimonial/testimonial';
+@import 'components/page-header';
+@import 'components/page-navigation';
+@import 'components/page-hero';
 
 // UTILITIES
 
@@ -18,153 +19,6 @@
 
 
 
-body {
-	font-family: 'Karla', sans-serif; 
-}
-
-
-/* ----------------------------------------------------------------------------------- */
-/* PAGE NAVIGATION */
-/* ----------------------------------------------------------------------------------- */
-.page-navigation {
-	height: 200px;
-	padding-left: 25px;
-}
-.navigation-bar{
-	padding-top: 27px;
-	padding-left: 13.5px;
-}
-.page-navigation-logo {  
-	width: 135px; 
-	position: absolute;
-	z-index:9999; 
-}
-.page-navigation-logo-img {  
-	max-height: 44px;
-}
-.page-navigation-toggle  {
-	position: absolute;
-    right: 0;
-    margin-right: 28px;
-    margin-top: -5px;
-    padding: 20px;
-    z-index: 9999;
-}
-.page-navigation-toggle-img  {
-	width: 18px;
-	z-index: 9999;
-}
-.page-navigation-toggle.active {
-	background-color: hsla(0, 0%, 100%, .3);
-	z-index:9999; 
-}
-
-.page-navigation-menu{
-	display: none; 
-	z-index:9999; 
-}
-.page-navigation-menu.active {
-	display: block;
-	position: absolute;
-	background-color: white;
-	margin-top: 65px;
-	padding: 30px 0 20px 0;
-	z-index: 9999;
-	max-width: 100%;
-	left: 30px;
-	right: 0;
-	margin-right: 32px;
-}
-.page-navigation-menu-link.active {
-	text-transform: uppercase;
-	font-family: Karla, sans-serif;
-	padding: 0 23px;
-	font-size: 16px; 
-	text-decoration: none;
-	color: rgba(17, 17, 17, 0.85);
-	font-weight: 700;
-	line-height: 27px;
-	z-index:9999;
-}
-.page-navigation-menu-item{
-
-}
-/* ----------------------------------------------------------------------------------- */
-/* PAGE HERO */
-/* -----------------------------------------------------------------------------------*/
-.page-hero {
-	position: relative;  
-	display: block; 
-	overflow: hidden; 
-	left: 0; 
-	right: 0;  
-	white-space: nowrap; 
-	background-image: url("../img/hero-1.jpg");
-	background-size: cover;
-	height: 100vh;
-	margin-top: -200px;
-} 
-
-.page-hero-title{
-	color: #fff;
-    max-width: 100%;
-    margin-top: 205px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-family: 'Frank Ruhl Libre', sans-serif;
-    text-align: center;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 48px;
-}
-.horizontal-line{
-	background-color: #fff;
-    display: block;
-    width: 54px;
-    height: 2px;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-left: auto;
-}
-.page-hero-subtitle{
-	color: #fff;
-    text-transform: uppercase;
-    margin: auto;
-    max-width: 80%;
-    padding: 23px;
-    text-align: center;
-    font-size: 21px;
-    line-height: 27px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-.page-hero-arrow-down{ 
-	position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 27px;
-    z-index: 1;
-    display: block;
-    width: 37px;
-    height: 37px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    text-align: center;
-}
-.page-hero-arrow-down-img{
-	position: relative;
-    width: 15px;
-    top: 13px;
-    height: 10px;
-}
-.page-content{ 
-	padding-bottom: 1px;
-	background-color: #f4fbf5; 
-}
-.index-page-content{  
-	background-color: #f4fbf5; 
-}
 
 /* ----------------------------------------------------------------------------------- */
 /* landing-intro */
@@ -177,7 +31,7 @@ body {
 	background-color: #fff;
 	margin-left: 14px;
 	margin-right: 27px;
-	margin-top: 54px; 
+	margin-top: 54px;
 	padding: 27px;
 }
 .landing-thumbnail-title{
@@ -207,8 +61,8 @@ body {
 	text-decoration: none;
 	border-bottom: 1px solid #111;
 	font-family: Karla, sans-serif;
-	letter-spacing: 1px; 
-}   
+	letter-spacing: 1px;
+}
 
 
 /* ----------------------------------------------------------------------------------- */
@@ -224,8 +78,8 @@ body {
 	padding-left: 13.5px;
 	padding-right: 27px;
 }
-.page-footer-link{ 
-	color: #fff;  
+.page-footer-link{
+	color: #fff;
 }
 .page-footer-logo{
 	padding-left: 13.5px;
@@ -238,7 +92,7 @@ body {
 	padding-left: 13.5px;
 }
 .page-footer-title{
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 13px;
 	font-size: 16px;
@@ -257,7 +111,7 @@ body {
 .page-footer-copyright{
 	padding-left: 13.5px;
 }
-.page-footer-copyright-text{ 
+.page-footer-copyright-text{
 	color: #fff;
 	margin: 54px 0;
 	margin-right: 13.5px;
@@ -265,7 +119,7 @@ body {
 	font-size: 14px;
 }
 .page-footer-copyright-license{
-	text-decoration: none;  
+	text-decoration: none;
 	border-bottom: 1px solid #111;
 	color: #fff;
 	margin-bottom: 54px;
@@ -358,7 +212,7 @@ body {
 	height: 351px;
 	margin-top: -200px;
 	background-position: 50% 50%;
-} 
+}
 .menu-title{
 	text-transform: uppercase;
 	display: inline-block;
@@ -390,13 +244,13 @@ body {
 	line-height: 60px;
 }
 .menu-meal{
-	max-width: 90%; 
+	max-width: 90%;
 	line-height: 27px;
 	font-size: 16px;
 	float: left;
 	margin-bottom: 13.5px;
 }
-.menu-price{  
+.menu-price{
 	font-size: 16px;
 	text-align: right;
 }
@@ -417,7 +271,7 @@ body {
 	margin-top: -200px;
 }
 .about-title{
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	margin-top: 15px;
 	font-size: 21px;
 	line-height: 27px;
@@ -430,7 +284,7 @@ body {
 }
 .about-page-bottom-img{
 	width: 100%;
-} 
+}
 .about-page-bottom {
 	margin-bottom: 85px;
 }
@@ -442,7 +296,7 @@ body {
 	font-family: 'Frank Ruhl Libre', sans-serif;
 }
 .about-page-bottom-container-text{
-	text-align: center;  
+	text-align: center;
 	padding-bottom: 25px;
 	line-height: 34px;
 	font-family: 'Frank Ruhl Libre', sans-serif;
@@ -455,7 +309,7 @@ body {
 	color: #111;
 	text-decoration: none;
 	letter-spacing: 1px;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	margin-left: 20px;
 	line-height: 34px;
 	font-family: Karla, sans-serif;
@@ -469,11 +323,11 @@ body {
 /* ----------------------------------------------------------------------------------- */
 /* FUNCTIONS PAGE - CONTENT */
 /* -----------------------------------------------------------------------------------*/
-.functions-page-hero{ 
+.functions-page-hero{
 	background-image: url("../img/hero-2.jpg");
 	background-size: cover;
 	height: 340px;
-	margin-top: -200px; 
+	margin-top: -200px;
 }
 .functions-page-content{
 	display: flex;
@@ -481,24 +335,24 @@ body {
 	padding-bottom: 50px;
 }
 .functions-container-left{
-	width: 50%; 
+	width: 50%;
 }
 .functions-container-right{
-	width: 50%; 
+	width: 50%;
 }
 .functions-img{
 	max-width: 100%;
 	vertical-align: middle;
 	display: inline-block;
 }
-.functions-title{ 
-	text-transform: uppercase; 
+.functions-title{
+	text-transform: uppercase;
 	font-size: 30px;
 	line-height: 34px;
 	font-weight: 400;
 }
 .functions-subtitle{
-	text-transform: uppercase;  
+	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 13px;
 	color: #111;
@@ -507,13 +361,13 @@ body {
 	font-weight: 400;
 	letter-spacing: 0.5px;
 }
-.functions-text{ 
-	padding: 30px 5px; 
+.functions-text{
+	padding: 30px 5px;
 	font-size: 16px;
 	line-height: 27px;
 }
 .functions-link{
-	text-decoration:none; 
+	text-decoration:none;
 	border-bottom: 1px solid #111;
 	color: #111;
 	font-size: 16px;
@@ -577,7 +431,7 @@ body {
 /* ----------------------------------------------------------------------------------- */
 /* NEWS PAGE - CONTENT */
 /* -----------------------------------------------------------------------------------*/
-.news-page-hero{ 
+.news-page-hero{
 	background-image: url("../img/hero-1.jpg");
 	background-size: cover;
 	height: 340px;
@@ -591,17 +445,17 @@ body {
 	text-decoration: none;
 	color: #fff;
 }
-.news-item{  
+.news-item{
 	background-size: cover;
 	margin-bottom: 50px;
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	height: 350px; 
+	height: 350px;
 }
 .news-item-date{
-	text-transform: uppercase;  
-	font-family: Karla, sans-serif; 
+	text-transform: uppercase;
+	font-family: Karla, sans-serif;
 	font-size: 16px;
 	line-height: 27px;
 	font-weight: 400;
@@ -610,7 +464,7 @@ body {
 	padding-right: 27px;
 	padding-left: 27px;
 }
-.news-item-title{ 
+.news-item-title{
 	font-family: 'Frank Ruhl Libre', sans-serif;
 	font-size: 34px;
 	line-height: 41px;
@@ -618,7 +472,7 @@ body {
 	padding-top: 27px;
 	padding-right: 27px;
 	padding-left: 27px;
-} 
+}
 
 
 /* ----------------------------------------------------------------------------------- */

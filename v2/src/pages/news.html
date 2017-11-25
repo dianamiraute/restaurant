@@ -1,86 +1,88 @@
  
 
-  <main class="menu-page-content">
+  <main class="c-news-page">
 
-
-    <section class="news-page-hero">  
+    <section class="c-news-page__hero"> 
+       {{> page-navigation }} 
     </section>
 
-    <section class="page-intro">
-     <h2 class="page-title">News & interviews</h2> 
-     <span class="page-title-horizontal-line"> </span>
-     <div class="page-title-desc">
-      Each month we share restaurant updates and interviews with some of the local producers that feature on our menu
-    </div> 
-    <img class="page-title-badge" src="../assets/img/badge.png">
-  </section>
-
-  <section class="page-content">
-    <div class="news-container">
-      <a href="#" class="news-container-link"> 
-          <div class="news-item" style="background-image: url('../assets/img/news-1.jpg')">
-            <div class="news-item-date">July 31, 2017</div>
-            <div class="news-item-title">June's Featured Provider: Grange Winery</div>
-          </div>
-      </a>
-  </div>
-
-    <div class="news-container">
-      <a href="#" class="news-container-link"> 
-          <div class="news-item" style="background-image: url('../assets/img/news-2.jpg')">
-            <div class="news-item-date">July 31, 2017</div>
-            <div class="news-item-title">We've Launched Our New Website</div>
-          </div>
-      </a>
-  </div>
-
-    <div class="news-container">
-      <a href="#" class="news-container-link"> 
-          <div class="news-item" style="background-image: url('../assets/img/news-3.jpg')">
-            <div class="news-item-date">July 31, 2017</div>
-            <div class="news-item-title">New Dessert Menu Coming Soon</div>
-          </div>
-      </a>
-  </div>
-
-
-    <div class="news-container">
-      <a href="#" class="news-container-link"> 
-          <div class="news-item" style="background-image: url('../assets/img/news-4.jpg')">
-            <div class="news-item-date">July 31, 2017</div>
-            <div class="news-item-title">May's Featured Provider: Parnell Seafood</div>
-          </div>
-      </a>
-  </div>
-
-
-    <div class="news-container">
-      <a href="#" class="news-container-link"> 
-          <div class="news-item" style="background-image: url('../assets/img/news-5.jpg')">
-            <div class="news-item-date">July 31, 2017</div>
-            <div class="news-item-title">Introducing our new Sous Chef: Daniel Adams</div>
-          </div>
-      </a>
-  </div>
-
-
-    <div class="news-container">
-      <a href="#" class="news-container-link"> 
-          <div class="news-item" style="background-image: url('../assets/img/news-6.jpg')">
-            <div class="news-item-date">July 31, 2017</div>
-            <div class="news-item-title">News casual dining and function space</div>
-          </div>
-      </a>
-  </div>
-      <div class="about-page-bottom-container">
-        <div class="about-page-bottom-container-text">Join us soon for great food and fine wine in a relaxed seaside setting</div>
-     <div class="about-page-bottom-container-section">
-       <a class="about-page-bottom-container-link" href="menu.html">View menu</a> 
-       <a class="about-page-bottom-container-link" href="reservations.html">Make a reservation</a>
-    </div>
-      </div>
-  </section>
+    <div class="c-page"> 
+      <section class="c-page__intro">
+        <h2 class="c-page__title">
+          News & interviews
+        </h2> 
+        <span class="c-page__title-horizontal-line"></span>
+        <div class="c-page__title-desc">
+          Each month we share restaurant updates and interviews with some of the local producers that feature on our menu
+        </div> 
+        <img class="c-page__title-badge" src="../assets/img/badge.png">
+      </section>
   
+      <section class="c-page__content">
 
+        <div class="c-news-page__content">
+
+          <div class="c-news-page__container">
+            <a href="#" class="c-news-page__container-link"> 
+              <div class="c-news-page__item" style="background-image: url('../assets/img/news-1.jpg')">
+                <div class="c-news-page__item-date">July 31, 2017</div>
+                <div class="c-news-page__item-title">June's Featured Provider: Grange Winery</div>
+              </div>
+            </a>
+          </div> 
+          <div class="c-news-page__container">
+            <a href="#" class="c-news-page__container-link"> 
+              <div class="c-news-page__item" style="background-image: url('../assets/img/news-2.jpg')">
+                <div class="c-news-page__item-date">July 31, 2017</div>
+                <div class="c-news-page__item-title">We've Launched Our New Website</div>
+              </div>
+            </a>
+          </div> 
+          <div class="c-news-page__container">
+            <a href="#" class="c-news-page__container-link"> 
+              <div class="c-news-page__item" style="background-image: url('../assets/img/news-3.jpg')">
+                <div class="c-news-page__item-date">July 31, 2017</div>
+                <div class="c-news-page__item-title">New Dessert Menu Coming Soon</div>
+              </div>
+            </a>
+          </div>  
+          <div class="c-news-page__container">
+            <a href="#" class="c-news-page__container-link"> 
+              <div class="c-news-page__item" style="background-image: url('../assets/img/news-4.jpg')">
+                <div class="c-news-page__item-date">July 31, 2017</div>
+                <div class="c-news-page__item-title">May's Featured Provider: Parnell Seafood</div>
+              </div>
+            </a>
+          </div>
+          <div class="c-news-page__container">
+            <a href="#" class="c-news-page__container-link"> 
+              <div class="c-news-page__item" style="background-image: url('../assets/img/news-5.jpg')">
+                <div class="c-news-page__item-date">July 31, 2017</div>
+                <div class="c-news-page__item-title">Introducing our new Sous Chef: Daniel Adams</div>
+              </div>
+            </a>
+          </div>
+          <div class="c-news-page__container">
+            <a href="#" class="c-news-page__container-link"> 
+              <div class="c-news-page__item" style="background-image: url('../assets/img/news-6.jpg')">
+                <div class="c-news-page__item-date">July 31, 2017</div>
+                <div class="c-news-page__item-title">News casual dining and function space</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="c-about-page__bottom-container">
+            <div class="c-about-page__bottom-container-text">
+              Join us soon for great food and fine wine in a relaxed seaside setting
+            </div>
+            <div class="c-about-page__bottom-container-section">
+             <a class="c-about-page__bottom-container-link" href="menu.html">View menu</a> 
+             <a class="c-about-page__bottom-container-link" href="reservations.html">Make a reservation</a>
+            </div> 
+          </div>
+
+        </div> 
+      </section> 
+    </div>  
 </main> 
  

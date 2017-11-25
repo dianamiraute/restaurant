@@ -12,18 +12,10 @@ hello();
 //--------------------------------------------------------------------------------------
 function toggleMenu() {
   $('.js-page-navigation-menu').toggleClass('active');
-  $('.page-navigation-toggle').toggleClass('active');
-  $('.page-navigation-menu-link').toggleClass('active');
+  $('.js-page-navigation-toggle').toggleClass('active');
+  $('.js-page-navigation-menu-link').toggleClass('active');
 }
 
 $('.js-page-navigation-toggle').on('click', toggleMenu);
 
-
-// -------------------------------------------------------------------------------------
-// PAGE HERO ARROW DOWN
-//--------------------------------------------------------------------------------------
-
-
-// -------------------------------------------------------------------------------------
-// PAGE FOOTER ARROW UP
-//--------------------------------------------------------------------------------------
+ 

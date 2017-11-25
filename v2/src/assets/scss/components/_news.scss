@@ -1,0 +1,75 @@
+
+
+/* ----------------------------------------------------------------------------------- */
+/* NEWS PAGE - CONTENT */
+/* -----------------------------------------------------------------------------------*/
+.c-news-page{ 
+  font-family: Karla, sans-serif;
+}
+.c-news-page__hero{
+	background-image: url("../img/hero-1.jpg");
+	background-size: cover;
+	height: 340px; 
+	background-position-y: 30%;
+}
+.c-news-page__content{
+  padding-top: 108px;
+  display: flex; 
+  flex-wrap: wrap;
+}
+.c-news-page__container-link{
+	text-decoration: none;
+	color: #fff;
+}
+.c-news-page__item{
+	/*background-size: cover;*/
+	margin-bottom: 50px;
+	position: relative;
+	overflow: hidden;
+	width: 100vw;
+	height: 350px;
+}
+.c-news-page__item-date{
+	text-transform: uppercase;
+	font-family: Karla, sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	padding-top: 27px;
+	padding-right: 27px;
+	padding-left: 27px;
+}
+.c-news-page__item-title{
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	font-size: 34px;
+	line-height: 41px;
+	font-weight: 300;
+	padding-top: 27px;
+	padding-right: 27px;
+	padding-left: 27px;
+} 
+ 
+@media screen and (min-width: 560px) { 
+  .c-news-page__hero {
+    height: 486px;
+  } 
+} 
+
+@media screen and (min-width: 990px) { 
+  .c-news-page__item{ 
+    width: 100%;
+  } 
+  .c-news-page__container{ 
+    width:50%;
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
+} 
+
+
+
+
+
+
+

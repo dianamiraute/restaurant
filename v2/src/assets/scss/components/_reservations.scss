@@ -1,0 +1,26 @@
+ 
+/* ----------------------------------------------------------------------------------- */
+/* NEWS PAGE - RESERVATIONS */
+/* -----------------------------------------------------------------------------------*/
+
+
+.c-reservations-page{ 
+  font-family: Karla, sans-serif;
+  background-color: #f4fbf5;
+}
+.c-reservations-page__hero{
+  background-image: url("../img/hero-9.jpg");
+  background-size: cover;
+  height: 340px;
+  height: 270px; 
+}
+.c-reservation-form__container{
+  background-color: #f4fbf5;
+}
+
+  
+@media screen and (min-width: 560px) { 
+  .c-reservations-page__hero {
+    height: 486px;
+  } 
+} 

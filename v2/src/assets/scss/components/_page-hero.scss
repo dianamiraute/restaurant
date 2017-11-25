@@ -1,18 +1,99 @@
-.c-page-hero {
-  padding: 15px;
-  color: #FFF;
-  font-weight: 300;
+
+/* ----------------------------------------------------------------------------------- */
+/*  INDEX HERO */
+/* -----------------------------------------------------------------------------------*/
+
+.c-page{
+  background-image: linear-gradient(transparent 108px, #f4fbf5 0px);
+  height: 100%;
+}
+.c-page__title{
   text-align: center;
-  max-width: 700px;
-  width: 100%;
+  text-transform: uppercase;
+  color: #111;
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: 1px;
+}
+.c-page__intro{
+  background-color: white;
+  padding: 54px 27px 68px;
+  position: relative;
+  margin-top: -108px;
+}
+.c-page__title-horizontal-line{
+  margin-top: 41px;
+  display: block;
+  width: 54px;
+  height: 2px;
+  margin-right: auto;
+  margin-bottom: 41px;
+  margin-left: auto;
+  background-color: #111;
+}
+.c-page__title-desc{
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  max-width: 680px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  font-size: 24px;
+  line-height: 34px;
+}
+.c-page__title-badge{
+  bottom: -44px;
+  height: 110px; 
+  position: absolute;
+  right: 27px;
+}
+.c-page__content{
+  padding-top: 54px;
+  padding-right: 27px;
+  padding-left: 27px;
+  width: 990px;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
+  background-color: #f4fbf5;
 }
 
-.c-page-hero__title {
-  font-size: 40px;
-}
+@media screen and (min-width: 480px) { 
+  .c-page__title-desc{
+    font-size: 30px;
+    line-height: 41px;
+    padding: 10px
+  }
+  .c-page__title-badge{
+    bottom: -53px; 
+    height: 135px;
+    position: absolute;
+    right: 27px;
+  }
+} 
 
-.c-page-hero__subtitle {
-  font-size: 20px;
-}
+@media screen and (min-width: 560px) {  
+  .c-page__intro { 
+    width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+} 
+
+@media screen and (min-width: 768px) {
+  .c-page__intro { 
+    width: 714px;
+  }
+} 
+ 
+ @media screen and (min-width: 990px) {
+  .c-page__intro {  
+    width: 990px;
+  }
+  .c-page__title-desc{
+    font-size: 36px;
+    line-height: 48px;
+    padding: 10px
+  }
+} 

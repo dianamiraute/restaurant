@@ -1,0 +1,97 @@
+ 
+/* ----------------------------------------------------------------------------------- */
+/* FUNCTIONS PAGE - CONTENT */
+/* -----------------------------------------------------------------------------------*/
+.c-functions-page{ 
+  font-family: Karla, sans-serif;
+}
+.c-functions-page__hero{
+  background-image: url("../img/hero-2.jpg");
+  background-size: cover;
+  height: 340px;     
+  background-position: 50% 100%;
+}
+.c-functions-page__content{
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.c-functions-page__container-left{
+  width: 35%;
+}
+.c-functions-page__container-right{
+  width: 50%;
+  margin-left: auto;
+}
+.c-functions-page__img{
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.c-functions-page__title{
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 400;
+}
+.c-functions-page__subtitle{
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 13px;
+  color: #111;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.c-functions-page__text{
+  padding: 30px 5px;
+  font-size: 16px;
+  line-height: 27px;
+}
+.c-functions-page__link{
+  text-decoration:none;
+  border-bottom: 1px solid #111;
+  color: #111;
+  font-size: 16px;
+}
+.c-functions-page__bottom  {
+  padding: 30px;
+}
+.c-functions-page__bottom-img{
+  align-content: center;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.c-functions-page__bottom-text{
+  max-width: 770px;
+  margin-right: auto;
+  margin-left: auto;    padding: 30px;
+  text-align: center;
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 41px;
+} 
+.c-functions-page__form{
+  margin-top: 54px;
+}
+ 
+@media screen and (min-width: 560px) { 
+  .c-functions-page__hero {
+    height: 486px;
+  }  
+} 
+
+@media screen and (min-width: 990px) { 
+ .c-functions-page__bottom-img{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: -108px;
+    display: block;
+  }
+
+}

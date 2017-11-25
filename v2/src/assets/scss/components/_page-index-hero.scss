@@ -1,0 +1,64 @@
+
+/* ----------------------------------------------------------------------------------- */
+/*  PAGES HERO */
+/* -----------------------------------------------------------------------------------*/
+.c-page-hero {
+  padding: 15px;
+  color: #FFF;
+  font-weight: 300;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}   
+.c-page-hero__title{
+  color: #fff;
+  margin: auto;
+  margin-bottom: 27px;
+  width: 100%;
+  max-width: 400px; 
+  font-size: 48px;
+  line-height: 54px;
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  text-align: center;
+  font-weight: 300; 
+}
+.c-page-hero__horizontal-line{
+  background-color: #fff;
+  display: block;
+  width: 115px;
+  height: 4px;
+  display: block;
+  width: 54px;
+  height: 2px;
+  margin-right: auto;
+  margin-bottom: 41px;
+  margin-left: auto;
+}
+.c-page-hero__subtitle{
+  color: #fff; 
+  font-family: Karla, sans-serif;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+} 
+.c-page-hero__arrow-down{    
+    position: absolute;
+    bottom: 27px;
+    margin-left: -20px;
+    background-color: transparent;
+    border-radius: 50%; 
+    border: 2px solid white;
+    height: 41px;
+    width: 41px;
+}
+.c-page-hero__arrow-down-img{
+    position: relative;  
+    top: 10px;
+    height: 8px;
+}
+

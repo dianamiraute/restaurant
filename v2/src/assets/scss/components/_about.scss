@@ -1,0 +1,128 @@
+ 
+
+/* ----------------------------------------------------------------------------------- */
+/* ABOUT PAGE - CONTENT */
+/* -----------------------------------------------------------------------------------*/
+.c-about-page{ 
+    color: #333;
+}
+.c-about-page__hero{
+    background-image: url("../img/hero-6.jpg");
+    background-size: cover;
+    height: 405px; 
+    color: #333;
+}
+.c-about-page__title{
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: 1px;     
+    font-family: Karla, sans-serif;
+}
+.c-about-page__text{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: Karla, sans-serif;
+}
+.c-about-page__bottom-img{
+    width: 100%;
+    padding: 10px;
+}
+.c-about-page__bottom {
+    margin-bottom: 85px;
+} 
+.c-about-page__bottom-container{
+    background-color: #fff;
+    margin: 0 -13px;
+    padding: 54px 13.5px;
+    margin-bottom: 22px;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+.c-about-page__bottom-container-text{
+    text-align: center;
+    padding-bottom: 25px;
+    line-height: 34px;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+.c-about-page__bottom-container-link{
+    display: inline-block;
+    border-bottom: 1px solid #111;
+    color: #111;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    line-height: 34px;
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.c-about-page__bottom-container-section{
+    text-align: center;
+}
+ 
+
+@media screen and (min-width: 560px) { 
+    .c-about-page__hero {
+        height: 486px;
+    } 
+} 
+
+@media screen and (min-width: 768px) { 
+    .c-about-page__hero {
+        height: 486px;
+    } 
+    .c-about-page__container{
+        max-width:100%;
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+    }
+    .c-about-page__container--left{
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .c-about-page__container--right{
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .c-about-page__bottom-container-text { 
+        padding-bottom: 25px;
+        line-height: 41px;
+        font-size: 30px;
+        max-width: 420px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .c-about-page__bottom-container { 
+        margin: 54px auto;
+        width: 690px;
+    }
+
+} 
+
+@media screen and (min-width: 990px) { 
+    .c-about-page__bottom-container { 
+        position: relative;
+        bottom: -72px;
+        z-index: 99999;
+    } 
+    .c-about-page__bottom-container-text { 
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 300;
+    }
+
+} 
